@@ -1,0 +1,173 @@
+
+body
+{
+background-color: black;
+font-family: Roboto;
+}
+
+header
+{
+background-color: black;
+width: 100%;
+margin:auto;
+}
+
+h2
+{
+color: white;
+text-shadow: pink 2px 5px;
+font-family: Roboto;
+font-size: 3em;
+text-decoration:underline dotted;
+}
+
+.introduction
+{
+display: flex;
+flex-direction:column;
+}
+
+.titre
+{
+font-size: 6em;
+color: pink;
+text-align: center;
+background-image: url("images/araignee.jpeg");
+background-color: black;
+background-position: center;
+background-repeat: no-repeat;
+opacity: 0.9;
+border-color: pink;
+border-style: double;
+border-width: thick;
+border-radius: 1.2em;
+box-shadow: 6px 6px 0px white;
+text-shadow: 6px 6px 0px white;
+animation-duration: 8s;
+animation-name: clignote;
+animation-iteration-count: infinite;
+transition: none;
+overflow: auto;
+}
+
+#menu1
+{
+font-size: 0.8em;
+padding-left: :20em;
+}
+
+#menu2
+{
+font-size: 0.8em;
+padding-left :2em;
+}
+
+#menu3
+{
+font-size: 0.8em;
+padding-left :2em;
+}
+
+#menu4
+{
+font-size: 0.8em;
+padding-left :2em;
+padding-right:2em;
+}
+
+nav
+{
+color: white;
+width: 100;
+margin: auto;
+font-size: 2em;
+text-align: left;
+border-color: pink;
+border-style:solid;
+border-radius: 50px;
+border-width:medium;
+display: flex;
+flex-direction: row;
+}
+
+.menu
+{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap-reverse;
+width: 100%;
+margin:auto;
+justify-content: space-around;
+align-items: center;
+}
+
+@keyframes clignote {
+  0%   { opacity:1; }
+  40%   {opacity:0; }
+  100% { opacity:1; }
+}
+
+.float
+{
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.float2
+{
+float:right;
+margin-left: 1em;
+margin-bottom: 1em;
+}
+
+#para1
+{
+color: white;
+font-size: 1,5em;
+font-weight: bold;
+font-style: italic;
+text-align: justify;
+border-style: solid;
+border-color: pink;
+padding: 1em;
+line-height: auto;
+text-shadow: 8px 1px 8px pink;
+width: 95%
+margin:auto;
+overflow: auto;
+word-wrap: break-word;
+}
+
+#para2
+{
+color: white;
+font-size: 1,5em;
+font-weight: bold;
+font-style: italic;
+text-align: justify;
+border-style: solid;
+line-height: auto;
+border-color: pink;
+padding: 1em;
+text-shadow: 8px 1px 8px pink;
+width: 95%
+margin:auto;
+word-wrap: break-word;
+}
+
+img {
+	width: 10em;
+	height: 10em;
+  box-shadow: 10px 5px 5px pink;
+}
+
+a:link
+{
+color:pink;
+}
+
+a:hover
+{
+color:grey;
+}
